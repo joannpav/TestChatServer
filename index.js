@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const typeDefs = require('./graphQL/typeDefs');
 const resolvers = require('./graphQL/resolvers');
-const { MONGODB } = process.env.MONGODB || require('./config.js');
+// const { MONGODB } = process.env.MONGODB || require('./config.js');
 const PORT = process.env.PORT || 5000;
 
 const JiraAPI = require('./api/JiraAPI');
@@ -32,7 +32,7 @@ const server = new ApolloServer({
 //   })
   
 
-mongoose.connect(MONGODB, {
+mongoose.connect(process.env.MONGODB, {
     useNewUrlParser: true,    
 })
 .then(() => {        
