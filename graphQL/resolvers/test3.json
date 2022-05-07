@@ -1,0 +1,2324 @@
+[
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10013",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10013",
+    "key": "TES-14",
+    "fields": {
+      "statuscategorychangedate": "2022-01-10T07:03:34.037-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-14/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "lastViewed": "2022-01-10T07:05:20.833-0800",
+      "created": "2022-01-10T07:03:33.750-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10023": null,
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0002v:",
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2022-01-10T07:03:33.750-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "Test2 epic",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-3",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "aggregatetimeestimate": null,
+      "customfield_10009": null,
+      "summary": "blah",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "customfield_10000": "{}",
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-14/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10012",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10012",
+    "key": "TES-13",
+    "fields": {
+      "statuscategorychangedate": "2022-01-10T06:29:47.600-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10001",
+        "id": "10001",
+        "description": "Functionality or a feature expressed as a user goal.",
+        "iconUrl": "https://testchat.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+        "name": "Story",
+        "subtask": false,
+        "avatarId": 10315,
+        "hierarchyLevel": 0
+      },
+      "parent": {
+        "id": "10011",
+        "key": "TES-12",
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/10011",
+        "fields": {
+          "summary": "This is a test epic This is a test epic",
+          "status": {
+            "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+            "description": "",
+            "iconUrl": "https://testchat.atlassian.net/",
+            "name": "Backlog",
+            "id": "10000",
+            "statusCategory": {
+              "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+            "id": "10000",
+            "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+            "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+            "name": "Epic",
+            "subtask": false,
+            "hierarchyLevel": 1
+          }
+        }
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-13/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "lastViewed": null,
+      "created": "2022-01-10T06:29:46.959-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "customfield_10023": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0002n:",
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2022-01-10T06:29:47.054-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10014": "TES-12",
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "customfield_10009": null,
+      "aggregatetimeestimate": null,
+      "summary": "this is a test story",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "customfield_10000": "{}",
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-13/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10011",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10011",
+    "key": "TES-12",
+    "fields": {
+      "statuscategorychangedate": "2022-01-09T16:22:56.225-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": "2022-01-10T06:33:54.410-0800",
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-12/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2022-01-09T16:22:55.929-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10023": null,
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0002f:",
+      "aggregatetimeoriginalestimate": null,
+      "timeestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2022-01-10T06:29:47.069-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "This is a test epic",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-11",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "security": null,
+      "customfield_10007": null,
+      "customfield_10008": null,
+      "customfield_10009": null,
+      "aggregatetimeestimate": null,
+      "summary": "This is a test epic This is a test epic",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "customfield_10000": "{}",
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-12/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10010",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10010",
+    "key": "TES-11",
+    "fields": {
+      "statuscategorychangedate": "2022-01-09T07:33:59.244-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10001",
+        "id": "10001",
+        "description": "Functionality or a feature expressed as a user goal.",
+        "iconUrl": "https://testchat.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+        "name": "Story",
+        "subtask": false,
+        "avatarId": 10315,
+        "hierarchyLevel": 0
+      },
+      "parent": {
+        "id": "10006",
+        "key": "TES-7",
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/10006",
+        "fields": {
+          "summary": "A user can export test cases to TCMs",
+          "status": {
+            "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+            "description": "",
+            "iconUrl": "https://testchat.atlassian.net/",
+            "name": "Backlog",
+            "id": "10000",
+            "statusCategory": {
+              "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+            "id": "10000",
+            "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+            "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+            "name": "Epic",
+            "subtask": false,
+            "hierarchyLevel": 1
+          }
+        }
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": null,
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-11/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2022-01-09T07:33:58.599-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10023": null,
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i00027:",
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2022-01-09T07:33:58.684-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10014": "TES-7",
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "aggregatetimeestimate": null,
+      "customfield_10009": null,
+      "summary": "A user should be able to export test cases to QATouch",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "customfield_10000": "{}",
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-11/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10009",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10009",
+    "key": "TES-10",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T05:01:16.842-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": "2022-01-10T07:04:54.078-0800",
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-10/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2021-12-06T05:01:16.776-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10023": null,
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0001z:",
+      "aggregatetimeoriginalestimate": null,
+      "timeestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2021-12-06T05:01:16.776-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "A user can approve or deny requests to join their team",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-7",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "customfield_10009": null,
+      "aggregatetimeestimate": null,
+      "summary": "A user can approve or deny requests to join their team",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "customfield_10000": "{}",
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-10/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10008",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10008",
+    "key": "TES-9",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T05:01:03.224-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-9/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "lastViewed": null,
+      "created": "2021-12-06T05:01:03.145-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10023": null,
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0001r:",
+      "aggregatetimeoriginalestimate": null,
+      "timeestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2021-12-06T05:01:03.145-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "A company has their own prefix domain",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-7",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "security": null,
+      "customfield_10007": null,
+      "customfield_10008": null,
+      "aggregatetimeestimate": null,
+      "customfield_10009": null,
+      "summary": "A company has their own prefix domain",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10000": "{}",
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-9/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10007",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10007",
+    "key": "TES-8",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T05:00:22.793-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": null,
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-8/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2021-12-06T05:00:22.688-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10023": null,
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0001j:",
+      "aggregatetimeoriginalestimate": null,
+      "timeestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2021-12-06T05:00:22.688-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "A user can close and delete their account",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-7",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "customfield_10009": null,
+      "aggregatetimeestimate": null,
+      "summary": "A user can close and delete their account",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10000": "{}",
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-8/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10006",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10006",
+    "key": "TES-7",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T05:00:09.466-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": "2022-01-09T07:33:06.223-0800",
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-7/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2021-12-06T05:00:09.371-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "customfield_10023": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0001b:",
+      "aggregatetimeoriginalestimate": null,
+      "timeestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2022-01-09T07:33:58.717-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "A user can export test cases to TCMs",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-7",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "customfield_10009": null,
+      "aggregatetimeestimate": null,
+      "summary": "A user can export test cases to TCMs",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10000": "{}",
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-7/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10005",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10005",
+    "key": "TES-6",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T04:59:46.250-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-6/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "lastViewed": null,
+      "created": "2021-12-06T04:59:46.159-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "customfield_10023": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i00013:",
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2021-12-06T04:59:46.159-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "A user can create and manage test cases",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-7",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "security": null,
+      "customfield_10007": null,
+      "customfield_10008": null,
+      "aggregatetimeestimate": null,
+      "customfield_10009": null,
+      "summary": "A user can create and manage test cases",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "customfield_10000": "{}",
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-6/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10004",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10004",
+    "key": "TES-5",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T04:59:39.682-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": null,
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-5/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2021-12-06T04:59:39.563-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "customfield_10023": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0000v:",
+      "aggregatetimeoriginalestimate": null,
+      "timeestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2021-12-06T04:59:39.563-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "A user can create and manage stories",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-7",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "aggregatetimeestimate": null,
+      "customfield_10009": null,
+      "summary": "A user can create and manage stories",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10000": "{}",
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-5/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10003",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10003",
+    "key": "TES-4",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T04:59:31.499-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-4/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "lastViewed": "2022-01-10T06:29:22.967-0800",
+      "created": "2021-12-06T04:59:31.438-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "customfield_10023": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0000n:",
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2021-12-06T04:59:31.438-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "A user can create and manage epics",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-7",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "aggregatetimeestimate": null,
+      "customfield_10009": null,
+      "summary": "A user can create and manage epics",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10000": "{}",
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-4/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10002",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10002",
+    "key": "TES-3",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T04:58:05.865-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10001",
+        "id": "10001",
+        "description": "Functionality or a feature expressed as a user goal.",
+        "iconUrl": "https://testchat.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+        "name": "Story",
+        "subtask": false,
+        "avatarId": 10315,
+        "hierarchyLevel": 0
+      },
+      "parent": {
+        "id": "10001",
+        "key": "TES-2",
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/10001",
+        "fields": {
+          "summary": "A user should be able to sign up and login",
+          "status": {
+            "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+            "description": "",
+            "iconUrl": "https://testchat.atlassian.net/",
+            "name": "Backlog",
+            "id": "10000",
+            "statusCategory": {
+              "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+            "id": "10000",
+            "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+            "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+            "name": "Epic",
+            "subtask": false,
+            "hierarchyLevel": 1
+          }
+        }
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-3/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "lastViewed": "2021-12-06T04:58:13.757-0800",
+      "created": "2021-12-06T04:58:05.784-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "customfield_10023": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i0000f:",
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2021-12-06T04:58:17.528-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10014": "TES-2",
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "aggregatetimeestimate": null,
+      "customfield_10009": null,
+      "summary": "Create an account via Jira",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "customfield_10000": "{}",
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-3/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10001",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10001",
+    "key": "TES-2",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T04:53:07.998-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+        "id": "10000",
+        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+        "name": "Epic",
+        "subtask": false,
+        "hierarchyLevel": 1
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": "2022-01-03T07:03:46.535-0800",
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-2/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2021-12-06T04:53:07.946-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10023": null,
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i00007:",
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2021-12-06T04:58:17.515-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": null,
+      "customfield_10010": null,
+      "customfield_10011": "Sign up and login",
+      "customfield_10012": {
+        "self": "https://testchat.atlassian.net/rest/api/3/customFieldOption/10016",
+        "value": "To Do",
+        "id": "10016"
+      },
+      "customfield_10013": "ghx-label-6",
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "customfield_10009": null,
+      "aggregatetimeestimate": null,
+      "summary": "A user should be able to sign up and login",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "customfield_10000": "{}",
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-2/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  },
+  {
+    "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+    "id": "10000",
+    "self": "https://testchat.atlassian.net/rest/api/3/issue/10000",
+    "key": "TES-1",
+    "fields": {
+      "statuscategorychangedate": "2021-12-06T04:46:06.027-0800",
+      "issuetype": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10001",
+        "id": "10001",
+        "description": "Functionality or a feature expressed as a user goal.",
+        "iconUrl": "https://testchat.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+        "name": "Story",
+        "subtask": false,
+        "avatarId": 10315,
+        "hierarchyLevel": 0
+      },
+      "parent": {
+        "id": "10001",
+        "key": "TES-2",
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/10001",
+        "fields": {
+          "summary": "A user should be able to sign up and login",
+          "status": {
+            "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+            "description": "",
+            "iconUrl": "https://testchat.atlassian.net/",
+            "name": "Backlog",
+            "id": "10000",
+            "statusCategory": {
+              "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://testchat.atlassian.net/rest/api/3/issuetype/10000",
+            "id": "10000",
+            "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+            "iconUrl": "https://testchat.atlassian.net/images/icons/issuetypes/epic.svg",
+            "name": "Epic",
+            "subtask": false,
+            "hierarchyLevel": 1
+          }
+        }
+      },
+      "timespent": null,
+      "project": {
+        "self": "https://testchat.atlassian.net/rest/api/3/project/10000",
+        "id": "10000",
+        "key": "TES",
+        "name": "TestChatDev",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419",
+          "24x24": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=small",
+          "16x16": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=xsmall",
+          "32x32": "https://testchat.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10419?size=medium"
+        }
+      },
+      "fixVersions": [],
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10028": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "lastViewed": "2021-12-27T17:48:21.574-0800",
+      "watches": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-1/watchers",
+        "watchCount": 1,
+        "isWatching": true
+      },
+      "created": "2021-12-06T04:46:05.840-0800",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "customfield_10023": null,
+      "priority": {
+        "self": "https://testchat.atlassian.net/rest/api/3/priority/3",
+        "iconUrl": "https://testchat.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "labels": [],
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": false,
+        "showField": false,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|hzzzzz:",
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "versions": [],
+      "issuelinks": [],
+      "assignee": null,
+      "updated": "2021-12-06T04:57:10.846-0800",
+      "status": {
+        "self": "https://testchat.atlassian.net/rest/api/3/status/10000",
+        "description": "",
+        "iconUrl": "https://testchat.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://testchat.atlassian.net/rest/api/3/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "components": [],
+      "timeoriginalestimate": null,
+      "description": {
+        "version": 1,
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "A user should be able to sign up, get an email confirming and then login"
+              }
+            ]
+          }
+        ]
+      },
+      "customfield_10010": null,
+      "customfield_10014": "TES-2",
+      "customfield_10015": null,
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "customfield_10007": null,
+      "security": null,
+      "customfield_10008": null,
+      "customfield_10009": null,
+      "aggregatetimeestimate": null,
+      "summary": "Create an account using Gitlab",
+      "creator": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "reporter": {
+        "self": "https://testchat.atlassian.net/rest/api/3/user?accountId=61ae046a3618cd006f3120eb",
+        "accountId": "61ae046a3618cd006f3120eb",
+        "emailAddress": "support@testchat.io",
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/b3ec2b450971c78d28d1d792d9faf268?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTQ-1.png"
+        },
+        "displayName": "Test Chat QA",
+        "active": true,
+        "timeZone": "America/Los_Angeles",
+        "accountType": "atlassian"
+      },
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10000": "{}",
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://testchat.atlassian.net/rest/api/3/issue/TES-1/votes",
+        "votes": 0,
+        "hasVoted": false
+      }
+    }
+  }
+]
