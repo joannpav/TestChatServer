@@ -1,10 +1,11 @@
 const { ApolloServer } = require('apollo-server');
 const cors = require('cors')
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 const typeDefs = require('./graphQL/typeDefs');
 const resolvers = require('./graphQL/resolvers');
-// const { MONGODB } = process.env.MONGODB || require('./config.js');
+const { MONGODB } = process.env.MONGODB || require('./config.js');
 const PORT = process.env.PORT || 5000;
 
 const JiraAPI = require('./api/JiraAPI');
@@ -32,11 +33,11 @@ const server = new ApolloServer({
 //   })
   
 
-mongoose.connect(process.env.MONGODB, {
+mongoose.connect(MONGODB, {
     useNewUrlParser: true,    
 })
 .then(() => {        
-    return server.listen({ port: PORT })
+    return server.listen({ port: PORT || 5000 });
 }).then(res => {
         console.log("mongodb connected");
         console.log(`Server running at ${res.url}`)
