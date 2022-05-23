@@ -1,0 +1,11 @@
+{
+    "name": "Test Chat Server",
+    "description": "Backend for the Test Chat application",
+    "keywords": [
+      "dev and test collaboration",
+        "chat"
+    ],
+    "website": "https://testchat.io",
+    "repository": "https://github.com/joannpav/TestChatServer",
+    "logo": "https://testchat.io/images/logo.png"
+  }
