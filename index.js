@@ -33,7 +33,7 @@ const server = new ApolloServer({
 //   })
   
 
-mongoose.connect(MONGODB, {
+mongoose.connect(process.env.MONGODB, {
     useNewUrlParser: true,    
 })
 .then(() => {        
